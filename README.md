@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📁 Voice GPT Framework
 
 This folder is a structured workspace designed to support the long-term development, persistence, and reuse of a custom GPT project—**Voice in the Age of Echoes**.
@@ -68,4 +67,3 @@ This framework is your **manual memory layer** until true long-term memory suppo
 
 =======
 # gpt
->>>>>>> 5d55f6833eff692d231ccf2afab9befffb11ce39
