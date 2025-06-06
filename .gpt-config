@@ -1,0 +1,55 @@
+{
+  "name": "Voice in the Age of Echoes",
+  "description": "A co-reflective GPT designed to track identity, insight, and interaction across long conversations. Includes support for fallout points, timeline synthesis, interaction modes, memory reconstruction, and quote attribution.",
+  "version": "1.0.0",
+  "authors": ["Michael McCulley"],
+  "memory_status": "enabled",
+  "memory_strategy": {
+    "type": "hybrid",
+    "external_indexing": true,
+    "live_cache_path": "02_Live_Cache/",
+    "snapshot_export": true
+  },
+  "project_structure": {
+    "00_Seed_Capsule": ["voice_seed_capsule.md", ".gpt-config"],
+    "01_Project_Readme": ["README.md"],
+    "02_Live_Cache": [
+      "reminder_index.md",
+      "edge_case_test_log.md",
+      "memory_snapshot.json"
+    ],
+    "03_Interaction_Modes": [
+      "interaction_modes.md",
+      "README.md"
+    ],
+    "04_Timeline_and_Fallout": [
+      "voice_timeline.md",
+      "timeline_of_core_ideas.md",
+      "fallout_index.md",
+      "Thematic_Timeline.md",
+      "Chronological_Fallout_Points_Index.csv",
+      "movie_reference_catalog.md"
+    ],
+    "05_Voice_and_Quote_Attribution": [
+      "The Root of the Voice.docx"
+    ],
+    "06_Prompts_and_Onboarding": [
+      "README.md"
+    ]
+  },
+  "features": {
+    "fallout_system": true,
+    "reminder_index": true,
+    "context_timeline": true,
+    "quote_validation": true,
+    "co_reflection_modes": true,
+    "external_seed_sync": true,
+    "memory_reconstruction": true,
+    "modular_prompting": true
+  },
+  "backup_policy": {
+    "auto_versioning": true,
+    "archive_old_snapshots": true,
+    "snapshot_format": "json"
+  }
+}
